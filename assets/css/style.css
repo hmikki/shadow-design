@@ -1,0 +1,143 @@
+body{
+    font-family: 'Kodchasan', sans-serif;
+}
+.bg-dark{
+    background-color: rgba(0,0,0,1) !important;
+}
+.bg-dark.scrollNav{
+    background-color: rgba(0,0,0,0.5) !important;
+}
+.logo{
+    width: 70px;
+    height: 60px;
+}
+.nav-link{
+    padding: 0px;
+}
+.navbar{
+    padding: 0px;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+.dropdown-item{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-item:hover{
+    background-color: #ded0d0;
+}
+.portfolio{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    border: solid white;
+
+}
+.portfolio:hover{
+color: white;
+text-decoration: underline;
+}
+.mission{
+    background: #18191b;
+    padding: 70px 0px;
+    padding-top: 60px;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+.slides{
+    width: 100%;
+    height: 50%;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-family: 'Charmonman', cursive;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.mission{
+    text-align: center;
+}
+.mission h4{
+    color: #ffffffd9;
+    font-size: 18px;
+}
+.card-text:last-child{
+    color: #ffffff80;
+    font-size: 16px;
+}
+.team{
+    height: 600px;
+    width: 100%;
+    background: url("../images/41_1.png") no-repeat top center;
+}
+.overlay{
+    background: rgba(0,0,0,0.85);
+    width: 100%;
+    height: 100%;
+}
+.content{
+    padding: 90px 0px;
+    background: rgba(255,255,255,.06);
+    height: 100%;
+}
+.content h2{
+    color: white;
+    font-family: 'Charmonman', cursive;
+    font-weight: bold;
+}
+.content h4{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.teamItem{
+    opacity: none;
+    border-radius:50%;
+    height: 200px;
+    width: 200px;
+    line-height: 200px;
+}
+.image{
+    text-align: center;
+    opacity: none;
+}
+.card{
+    background: none;
+    text-align: center;
+    border: none;
+}
+.carousel-item.item1{
+    background: url("../images/49_1.png") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.carousel-item.item2{
+    background: url("../images/41_1.png") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.carousel-item.item3{
+    background: url("../images/13_1.png") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.dropdown:hover .dropdown-menu{
+    display:block;
+    text-transform: 0.4s;
+    background-color: rgba(127, 118, 118, 0.6);
+    color: white;
+    font-size: 16px;
+}
+@media(max-width:720px){
+    .team{
+        height: 1000px;
+    }
+}
